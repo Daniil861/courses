@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Courses</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<svg display="none">
+	<symbol id="video" viewBox="0 0 18 12">
+		<path class="st0" d="M6.2,11.2c-0.4,0.4-1,0.4-1.4,0L0.3,6.7c-0.4-0.4-0.4-1,0-1.4l4.5-4.5c0.4-0.4,1-0.4,1.4,0s0.4,1,0,1.4L3.4,5
+	L17,5c0.6,0,1,0.4,1,1s-0.4,1-1,1L3.4,7l2.8,2.8C6.6,10.2,6.6,10.8,6.2,11.2z" />
+	</symbol>
+	<symbol id="convert" viewBox="0 0 24 24">
+		<path fill-rule="evenodd" clip-rule="evenodd"
+			d="M2.09961 2C2.65189 2 3.09961 2.44772 3.09961 3V7.43632C4.75764 4.20928 8.11959 2 11.9996 2C16.3552 2 20.058 4.78413 21.4303 8.66675C21.6144 9.18747 21.3414 9.75879 20.8207 9.94284C20.3 10.1269 19.7287 9.85396 19.5446 9.33325C18.4459 6.22472 15.4813 4 11.9996 4C9.03957 4 6.45326 5.60799 5.06955 8H8.09957C8.65186 8 9.09957 8.44772 9.09957 9C9.09957 9.55228 8.65186 10 8.09957 10H2.09961C1.54732 10 1.09961 9.55228 1.09961 9V3C1.09961 2.44772 1.54732 2 2.09961 2Z" />
+		<path fill-rule="evenodd" clip-rule="evenodd"
+			d="M3.17664 14.0572C3.69736 13.8731 4.26868 14.146 4.45273 14.6668C5.55144 17.7753 8.51608 20 11.9978 20C14.9578 20 17.5441 18.392 18.9278 16H15.8978C15.3455 16 14.8978 15.5523 14.8978 15C14.8978 14.4477 15.3455 14 15.8978 14H21.8977C22.45 14 22.8977 14.4477 22.8977 15V21C22.8977 21.5523 22.45 22 21.8977 22C21.3455 22 20.8977 21.5523 20.8977 21V16.5637C19.2397 19.7907 15.8778 22 11.9978 22C7.64215 22 3.93936 19.2159 2.56705 15.3332C2.383 14.8125 2.65593 14.2412 3.17664 14.0572Z" />
+	</symbol>
+</svg>
+
+<!-- Пример вставки -->
+<!-- <div class="controls__arrow-prev swiper-button-prev">
+	<svg class="video-icon">
+		<use xlink:href="#video"></use>
+	</svg>
+</div> -->
+		<header class="header _lp">
+	<div class="header__container _container">
+		<a href="index.html" class="header__logo">
+			<img src="img/icons/logo-black.svg" alt="Логотип Createx">
+		</a>
+		<div class="header__menu menu">
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#" data-page="about" class="menu__link">About Us</a></li>
+					<li class="menu__item"><a href="courses.html" data-page="courses" class="menu__link">Courses</a></li>
+					<li class="menu__item"><a href="#" data-page="events" class="menu__link">Events</a></li>
+					<li class="menu__item"><a href="#" data-page="blog" class="menu__link">Blog</a></li>
+					<li class="menu__item"><a href="#" data-page="contacts" class="menu__link">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header__actions">
+			<div class="header__column">
+				<a data-da=".menu__list, 600" href="#" class="header__button button button_bg"> Get
+					consultations </a>
+			</div>
+			<div class="header__column">
+				<a data-da=".menu__list, 400" href="#login" class="header__login _popup-link">
+					<div class="header__icon-user _icon-user"></div>
+					<p>Log in / Register</p>
+				</a>
+			</div>
+		</div>
+		<button type="button" class="header__icon icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+	</div>
+</header>
+		<main class="page-courses">
+
+			<section class="page-courses__studying studying">
+				<div class="studying__decor-1">
+					<img src="img/page_courses/courses/dots.png" alt="Изображение фонового декора">
+				</div>
+				<div class="studying__decor-2">
+					<img src="img/page_courses/courses/shapes-1.png" alt="Изображение фонового декора">
+				</div>
+				<div class="studying__decor-3">
+					<img src="img/page_courses/courses/shapes-2.png" alt="Изображение фонового декора">
+				</div>
+				<div class="studying__container _container">
+					<div class="studying__title title-small">Enjoy your studying!</div>
+					<div class="studying__sub-title sub-title">Our online courses </div>
+					<div class="studying__filtr filtr">
+						<div class="filtr__container _container">
+							<div class="filtr__top">
+								<div class="filtr__controls">
+									<div data-filter="*" class="filtr__button is-checked">All <span>17</span> </div>
+									<div data-filter=".marketing" class="filtr__button">Marketing <span>4</span></div>
+									<div data-filter=".management" class="filtr__button">Management<span>3</span></div>
+									<div data-filter=".hr" class="filtr__button">HR & Recruting<span>5</span></div>
+									<div data-filter=".design" class="filtr__button">Design<span>2</span></div>
+									<div data-filter=".development" class="filtr__button">Development<span>3</span></div>
+								</div>
+								<div class="filtr__search">
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+										data-value="Search course..." class="filtr__input input">
+									<button type="submit" class="filtr__icon _icon-search"></button>
+								</div>
+							</div>
+							<div class="filtr__items">
+								<div class="filtr__item marketing">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-1.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_mr">Marketing
+											</div>
+											<div class="teachers__title teachers__title_no-main">The Ultimate Google Ads Training
+												Course</div>
+											<div class="teachers__text teachers__text_no-main">$100 <span>by Jerome Bell</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filtr__item management">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-2.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_mn">Management
+											</div>
+											<div
+												class="teachers__title teachers__title_no-main teachers__title_no-main-small-length">
+												Prduct Management Fundamentals
+											</div>
+											<div class="teachers__text teachers__text_no-main">$480 <span>by Marvin McKinney</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="filtr__item hr">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-3.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_hr">HR & Recruting
+											</div>
+											<div
+												class="teachers__title teachers__title_no-main teachers__title_no-main-small-length">
+												HR Management and Analytics</div>
+											<div class="teachers__text teachers__text_no-main">$200 <span>by Leslie Alexander
+													Li</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="filtr__item marketing">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-4.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_mr">Marketing
+											</div>
+											<div class="teachers__title teachers__title_no-main">Brand Management & PR
+												Communications</div>
+											<div class="teachers__text teachers__text_no-main">$530 <span>by Kristin Watson</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="filtr__item design">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-5.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_ds">Design
+											</div>
+											<div
+												class="teachers__title teachers__title_no-main teachers__title_no-main-small-length">
+												Graphic Design Basic</div>
+											<div class="teachers__text teachers__text_no-main">$500 <span>by Guy Hawkins
+													Li</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="filtr__item management">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-6.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_mn">Management
+											</div>
+											<div
+												class="teachers__title teachers__title_no-main teachers__title_no-main-small-length">
+												Business Development Management
+											</div>
+											<div class="teachers__text teachers__text_no-main">$400 <span>by Dianne Russell</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="filtr__item development">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-7.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_de">Development
+											</div>
+											<div
+												class="teachers__title teachers__title_no-main teachers__title_no-main-small-length">
+												Highload Software Architecture
+											</div>
+											<div class="teachers__text teachers__text_no-main">$600 <span>by Brooklyn
+													Simmons</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="filtr__item hr">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-8.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_hr">HR & Recruting
+											</div>
+											<div class="teachers__title teachers__title_no-main">Human Resources – Selection and
+												Recruitment</div>
+											<div class="teachers__text teachers__text_no-main">$150 <span>by Kathryn Murphy</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="filtr__item design">
+									<div class="teachers__item teachers__item_no-main">
+										<div class="teachers__box teachers__box_no-main">
+											<div class="teachers__image teachers__image_no-main _ibg">
+												<img src="img/page_courses/courses/image_courses_img-9.jpg"
+													alt="Фото преподавателя">
+											</div>
+										</div>
+										<div class="teachers__info teachers__info_no-main">
+											<div class="teachers__lable teachers__lable_no-main teachers__lable_ds">Design
+											</div>
+											<div class="teachers__title teachers__title_no-main">User Experience. Human-centered
+												Design</div>
+											<div class="teachers__text teachers__text_no-main">$240 <span>by Cody Fisher</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="filtr__load">
+								<div class="filtr__logo">
+									<svg class="convert-icon">
+										<use xlink:href="#convert"></use>
+									</svg>
+								</div>
+								<a href="#" class="filtr__btn">Load more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__testimonials testimonials-team_no-main">
+				<div class="testimonials-team__container _container">
+					<div class="team__testimonials testimonials-team">
+						<div class="testimonials-team__title title-small">TESTIMONIALS</div>
+						<div class="testimonials-team__sub-title sub-title">What our students say</div>
+						<div class="testimonials-team__body">
+							<div class="testimonials-team__controls controls">
+								<div class="testimonials-team__arrow-prev controls__arrow-prev swiper-button-prev">
+									<svg class="video-icon">
+										<use xlink:href="#video"></use>
+									</svg>
+								</div>
+								<div class="testimonials-team__arrow-next controls__arrow-next swiper-button-next">
+									<svg class="video-icon">
+										<use xlink:href="#video"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="testimonials-team__slider swiper">
+								<div class="testimonials-team__wrapper swiper-wrapper">
+									<div class="testimonials-team__slide swiper-slide">
+										<div class="testimonials-team__item">
+											<div class="testimonials-team__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam
+												viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id
+												turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam
+												eros.
+												Pulvinar neque pharetra arcu diam maecenas diam integer in.
+											</div>
+											<div class="testimonials-team__row">
+												<div class="testimonials-team__column">
+													<img src="img/team/team_logo.png" alt="Иконка профиля">
+												</div>
+												<div class="testimonials-team__column">
+													<div class="testimonials-team__name">Eleanor Pena</div>
+													<div class="testimonials-team__proffesion">Position, Course</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="testimonials-team__slide swiper-slide">
+										<div class="testimonials-team__item">
+											<div class="testimonials-team__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam
+												viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id
+												turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam
+												eros.
+												Pulvinar neque pharetra arcu diam maecenas diam integer in.
+											</div>
+											<div class="testimonials-team__row">
+												<div class="testimonials-team__column">
+													<img src="img/team/team_logo.png" alt="Иконка профиля">
+												</div>
+												<div class="testimonials-team__column">
+													<div class="testimonials-team__name">Eleanor Pena</div>
+													<div class="testimonials-team__proffesion">Position, Course</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="testimonials-team__slide swiper-slide">
+										<div class="testimonials-team__item">
+											<div class="testimonials-team__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam
+												viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id
+												turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam
+												eros.
+												Pulvinar neque pharetra arcu diam maecenas diam integer in.
+											</div>
+											<div class="testimonials-team__row">
+												<div class="testimonials-team__column">
+													<img src="img/team/team_logo.png" alt="Иконка профиля">
+												</div>
+												<div class="testimonials-team__column">
+													<div class="testimonials-team__name">Eleanor Pena</div>
+													<div class="testimonials-team__proffesion">Position, Course</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="testimonials-team__slide swiper-slide">
+										<div class="testimonials-team__item">
+											<div class="testimonials-team__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam
+												viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id
+												turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam
+												eros.
+												Pulvinar neque pharetra arcu diam maecenas diam integer in.
+											</div>
+											<div class="testimonials-team__row">
+												<div class="testimonials-team__column">
+													<img src="img/team/team_logo.png" alt="Иконка профиля">
+												</div>
+												<div class="testimonials-team__column">
+													<div class="testimonials-team__name">Eleanor Pena</div>
+													<div class="testimonials-team__proffesion">Position, Course</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="testimonials-team__slide swiper-slide">
+										<div class="testimonials-team__item">
+											<div class="testimonials-team__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam
+												viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id
+												turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam
+												eros.
+												Pulvinar neque pharetra arcu diam maecenas diam integer in.
+											</div>
+											<div class="testimonials-team__row">
+												<div class="testimonials-team__column">
+													<img src="img/team/team_logo.png" alt="Иконка профиля">
+												</div>
+												<div class="testimonials-team__column">
+													<div class="testimonials-team__name">Eleanor Pena</div>
+													<div class="testimonials-team__proffesion">Position, Course</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="testimonials-team__dots swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__certificate certificate">
+				<div class="certificate__container _container">
+					<div class="certificate__row certificate__row_no-main">
+						<div class="certificate__column">
+							<div class="certificate__item">
+								<div class="certificate__title title-small">Createx Certificate</div>
+								<div class="certificate__sub-title sub-title"><span>Your expertise will</span> be confirmed
+								</div>
+								<div class="certificate__text text">We&nbsp;are accredited by&nbsp;international professional
+									organizations and institutes:</div>
+								<div class="certificate__blocks">
+									<img src="img/certificate/certif_img-1.png" alt="Логотип">
+									<img src="img/certificate/certif_img-2.png" alt="Логотип">
+									<img src="img/certificate/certif_img-3.png" alt="Логотип">
+								</div>
+							</div>
+						</div>
+						<div class="certificate__column certificate__column_big">
+							<div class="certificate__image _ibg">
+								<img src="img/certificate/certificate_img.png" alt="Изображение сертификата">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__subscribe subscribe">
+				<div class="subscribe__logos">
+					<div class="subscribe__logo_1 _ibg">
+						<img src="img/subscribe/illustration.png" alt="Фон блока подписки">
+					</div>
+					<div class="subscribe__logo_2 _ibg">
+						<img src="img/subscribe/illustration.png" alt="Фон блока подписки">
+					</div>
+				</div>
+				<div class="subscribe__container _container">
+					<div class="subscribe__title title-small">Don’t miss anything</div>
+					<div class="subscribe__sub-title sub-title">Subscribe to the Createx School announcements</div>
+					<form action="#" method="post" class="subscribe__form">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+							data-value="Your working email" class="subscribe__input input">
+						<button type="submit" class="subscribe__btn button_bg form__btn btn">Subscribe</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__content">
+			<div class="footer__block block-footer">
+				<div class="block-footer__item">
+					<div class="block-footer__logo">
+						<img src="img/icons/logo-white.svg" alt="Логотип Createx">
+					</div>
+					<div class="block-footer__text">
+						<p>
+							Createx Online School is a leader in online studying. We have lots of courses and programs from the
+							main market experts. We provide relevant approaches to online learning, internships and employment
+							in the largest companies in the country.
+						</p>
+					</div>
+					<div class="block-footer__socials">
+						<a href="#" class="block-footer__icon _icon-facebook"></a>
+						<a href="#" class="block-footer__icon _icon-twitter"></a>
+						<a href="#" class="block-footer__icon _icon-youtube"></a>
+						<a href="#" class="block-footer__icon _icon-telegram"></a>
+						<a href="#" class="block-footer__icon _icon-instagram"></a>
+						<a href="#" class="block-footer__icon _icon-in"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__block footer__block_big block-menu-footer">
+				<div class="block-menu-footer__row">
+					<div class="block-menu-footer__column">
+						<div class="block-menu-footer__item">
+							<div class="block-menu-footer__title title-footer">SITE MAP</div>
+							<a href="#" class="block-menu-footer__sub-title">About Us</a>
+							<a href="#" class="block-menu-footer__sub-title">Courses</a>
+							<a href="#" class="block-menu-footer__sub-title">Events</a>
+							<a href="#" class="block-menu-footer__sub-title">Blog</a>
+							<a href="#" class="block-menu-footer__sub-title">Contacts</a>
+
+						</div>
+					</div>
+					<div class="block-menu-footer__column block-menu-footer__column_center">
+						<div class="block-menu-footer__item">
+							<div class="block-menu-footer__title title-footer">COURSES</div>
+							<a href="#" class="block-menu-footer__sub-title">Marketing</a>
+							<a href="#" class="block-menu-footer__sub-title">Management</a>
+							<a href="#" class="block-menu-footer__sub-title">HR & Recruting</a>
+							<a href="#" class="block-menu-footer__sub-title">Design</a>
+							<a href="#" class="block-menu-footer__sub-title">Development</a>
+
+						</div>
+					</div>
+					<div class="block-menu-footer__column">
+						<div class="block-menu-footer__item">
+							<div class="block-menu-footer__title title-footer">CONTACT US</div>
+							<div class="block-menu-footer__row-2">
+								<div class="block-menu-footer__column-2 block-menu-footer__column-2_icon">
+									<a href="tel:+74055550128"
+										class="block-menu-footer__icon block-menu-footer__icon_iphone _icon-iphone"></a>
+								</div>
+								<div class="block-menu-footer__column-2">
+									<a href="tel:+74055550128"
+										class="block-menu-footer__sub-title_column-2 block-menu-footer__sub-title">(405)
+										555-0128</a>
+								</div>
+
+							</div>
+							<div class="block-menu-footer__row-2">
+								<div class="block-menu-footer__column-2 block-menu-footer__column-2_icon">
+									<a href="mailto:hello@createx.com" class="block-menu-footer__icon  _icon-mail "></a>
+								</div>
+								<div class="block-menu-footer__column-2">
+									<a href="mailto:hello@createx.com"
+										class="block-menu-footer__sub-title_column-2 block-menu-footer__sub-title">hello@createx.com</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__block footer__block_sign block-sign">
+				<div class="block-sign__item">
+					<div class="block-sign__title title-footer">SIGN UP TO OUR NEWSLETTER</div>
+					<form action="#" method="post" class="block-sign__inputs">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Email address"
+							class="block-sign__input input">
+						<button type="submit" class="block-sign__arrow _icon-arrow-right"></button>
+					</form>
+					<div class="block-sign__text">
+						*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom bottom-footer">
+		<div class="bottom-footer__row _container">
+			<div class="bottom-footer__column">
+				<div class="bottom-footer__item">
+					<p>© All rights reserved. Made with</p>
+					<div class="bottom-footer__icon-row">
+						<p class="bottom-footer__icon-column _icon-heart"></p>
+						<p>by Createx Studio</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="bottom-footer__column bottom-footer__column_goto">
+				<div class="bottom-footer__goto">GO TO TOP</div>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<div class="popup popup_popup popup_login">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<div class="popup__sign sign-popup">
+				<div class="sign-popup__title">Sign in</div>
+				<div class="sign-popup__text">
+					Sign in&nbsp;to&nbsp;your account using email and password provided during registration.
+				</div>
+				<form action="#" class="sign-popup__form" method="post">
+					<div class="sign-popup__sub-title">Email</div>
+					<input autocomplete="off" type="text" name="form[Email]" data-error="Ошибка"
+						data-value="Your working email" class="sign-popup__input input">
+					<div class="sign-popup__sub-title">Password</div>
+					<input autocomplete="off" type="password" name="form[Password]" data-error="Ошибка"
+						data-value="Your working email" class="sign-popup__input input">
+					<div class="sign-popup__check">
+
+						<p>
+							<input type="checkbox" id="checkbox" />
+							<label for="checkbox">Keep me signed in</label>
+						</p>
+
+						<a href="#" class="sign-popup__forgot">Forgot password?</a>
+					</div>
+					<button type="submit" class="sign-popup__button button button_bg">Sign in</button>
+				</form>
+				<div class="sign-popup__account">
+					<span>Don't have an account?</span>
+					<a href="#sign-up" class="sign-popup__link _popup-link">Sign up</a>
+				</div>
+				<div class="sign-popup__sub-text">Or sign in with</div>
+				<div class="sign-popup__socials">
+					<a href="#" class="sign-popup__icon _icon-facebook"></a>
+					<a href="#" class="sign-popup__icon _icon-google"></a>
+					<a href="#" class="sign-popup__icon _icon-twitter"></a>
+					<a href="#" class="sign-popup__icon _icon-in"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_popup popup_sign-up">
+	<div class="popup__content">
+		<div class="popup__body popup__body_up">
+			<div class="popup__close"></div>
+			<div class="popup__sign-up sign-popup">
+				<div class="sign-popup__title">Sign up</div>
+				<div class="sign-popup__text">
+					Registration takes less than a&nbsp;minute but gives you full control over your studying.
+				</div>
+				<form action="#" class="sign-popup__form" method="post">
+					<div class="sign-popup__sub-title">Full Name</div>
+					<input autocomplete="off" type="text" name="form[Email]" data-error="Ошибка" data-value="Your full name"
+						class="sign-popup__input input">
+					<div class="sign-popup__sub-title">Email</div>
+					<input autocomplete="off" type="text" name="form[Email]" data-error="Ошибка"
+						data-value="Your working email" class="sign-popup__input input">
+					<div class="sign-popup__sub-title">Password</div>
+					<input autocomplete="off" type="password" name="form[Password]" data-error="Ошибка"
+						data-value="Your working email" class="sign-popup__input input">
+					<div class="sign-popup__sub-title">Confirm Password</div>
+					<input autocomplete="off" type="password" name="form[Password]" data-error="Ошибка"
+						data-value="Your working email" class="sign-popup__input input">
+					<div class="sign-popup__check">
+						<p>
+							<input type="checkbox" id="checkbox-1" />
+							<label for="checkbox-1">Remember me</label>
+						</p>
+					</div>
+					<button type="submit" class="sign-popup__button button button_bg">Sign in</button>
+				</form>
+				<div class="sign-popup__account">
+					<span>Already have an account?</span>
+					<a href="#login" class="sign-popup__link _popup-link">Sign in</a>
+				</div>
+				<div class="sign-popup__sub-text">Or sign in with</div>
+				<div class="sign-popup__socials">
+					<a href="#" class="sign-popup__icon _icon-facebook"></a>
+					<a href="#" class="sign-popup__icon _icon-google"></a>
+					<a href="#" class="sign-popup__icon _icon-twitter"></a>
+					<a href="#" class="sign-popup__icon _icon-in"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body popup__body_video">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+	<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
